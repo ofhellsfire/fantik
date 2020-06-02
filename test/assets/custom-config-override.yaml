@@ -1,0 +1,9 @@
+stylesOverride:
+  - '<link href="https://host/custom.css" rel="stylesheet">'
+
+scriptsOverride:
+  - '<script src="https://host/custom.js"></script>'
+
+markers:
+  slidegroup: '$$$slidegroup'
+  slide: '$$$slide'

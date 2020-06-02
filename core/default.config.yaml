@@ -1,0 +1,7 @@
+top: "<!DOCTYPE html>"
+html: "<html>"
+head: "<head>"
+body: "<body>"
+markers:
+  slidegroup: '>>>slidegroup'
+  slide: '>>>slide'

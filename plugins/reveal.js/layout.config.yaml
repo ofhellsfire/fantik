@@ -1,0 +1,10 @@
+wrapped:
+  - '<div class="reveal">'
+  - '<div class="slides">'
+
+slidegroup:
+  - '<section>'
+
+slide:
+  - '<section data-markdown>'
+  - '<textarea data-template>'

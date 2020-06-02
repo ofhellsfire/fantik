@@ -1,0 +1,32 @@
+{
+  "body": "<body>",
+  "head": "<head>",
+  "html": "<html>",
+  "markers": {
+    "slide": "===slide",
+    "slidegroup": "===slidegroup"
+  },
+  "top": "<!DOCTYPE html>",
+  "scripts": [
+    "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.js\"></script>",
+    "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.js\"></script>",
+    "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js\"></script>",
+    "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/markdown.js\"></script>",
+    "<script>\n  Reveal.initialize({\n    math: {\n      mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',\n      config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html\n    },\n    dependencies: [\n      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.js', async: true }\n    ]\n  });\n</script>\n"
+  ],
+  "slide": [
+    "<section data-markdown>",
+    "<textarea data-template>"
+  ],
+  "slidegroup": [
+    "<section>"
+  ],
+  "styles": [
+    "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.css\">",
+    "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/theme/white.css\">"
+  ],
+  "wrapped": [
+    "<div class=\"reveal\">",
+    "<div class=\"slides\">"
+  ]
+}

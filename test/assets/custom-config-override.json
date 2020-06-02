@@ -1,0 +1,27 @@
+{
+  "body": "<body>",
+  "head": "<head>",
+  "html": "<html>",
+  "markers": {
+    "slide": "$$$slide",
+    "slidegroup": "$$$slidegroup"
+  },
+  "top": "<!DOCTYPE html>",
+  "scripts": [
+    "<script src=\"https://host/custom.js\"></script>"
+  ],
+  "slide": [
+    "<section data-markdown>",
+    "<textarea data-template>"
+  ],
+  "slidegroup": [
+    "<section>"
+  ],
+  "styles": [
+    "<link href=\"https://host/custom.css\" rel=\"stylesheet\">"
+  ],
+  "wrapped": [
+    "<div class=\"reveal\">",
+    "<div class=\"slides\">"
+  ]
+}
