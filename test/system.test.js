@@ -54,7 +54,13 @@ describe('System Test Suite', () => {
     )
     const expected = `Unable to read config file: ` +
                      `ENOENT: no such file or directory, open ` +
-                     `'plugins/${pluginName}/layout.config.yaml'\n`
+                     `'${path.join(
+                         __dirname,
+                         '..',
+                         'plugins',
+                         pluginName,
+                         'layout.config.yaml'
+                      )}'\n`
     expect(output.stderr).toStrictEqual(expected)
   })
 

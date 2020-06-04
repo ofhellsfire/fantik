@@ -1,6 +1,9 @@
+#!/usr/bin/env node
+
 'use strict'
 
 const fs = require('fs')
+const path = require('path')
 
 const program = require('commander')
 
@@ -36,7 +39,7 @@ program.parse(process.argv)
 
 // pull functions into lib
 function listPlugins () {
-  const plugins = fs.readdirSync('plugins')
+  const plugins = fs.readdirSync(path.join(__dirname, 'plugins'))
   console.log('Available Plugins')
   console.log('=================')
   plugins.forEach(plugin => {
