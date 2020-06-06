@@ -4,7 +4,7 @@
 
 **Fantik** is a simple wrapper that allows you to create presentation slides from Markdown.
 
-Plugins are supported (only [reveal.js](https://github.com/hakimel/reveal.js) for now).
+Plugins support (only [reveal.js](https://github.com/hakimel/reveal.js) for now).
 
 Configurable.
 
@@ -13,6 +13,14 @@ Subsection slides support.
 Enable `--watch` feature, edit your slides in your favorite IDE and let **Fantik** rebuild HTML slides upon saving.
 
 ## Installation
+
+There are 2 ways how **Fantik** can be installed: **Binary Executable** and **NPM**. The installation via **NPM** is rather optional way since it is not so convenient as **Binary Executable** which is preferrable way.
+
+### Binary Executable
+
+Go to [release](https://github.com/ofhellsfire/fantik/releases) page and download binary executable for your platform. This option allows you to run **fantik** with all default configuration files are included to the binary and without **Node.js** installed on your system.
+
+If you don't want to specify path before binary name when executing **fantik**, then put binary to any path from `${PATH}` (e.g. `/usr/local/bin`)
 
 ### NPM
 
@@ -53,7 +61,20 @@ Options:
 
 ## Configuration
 
-TODO
+It is possible to override/change default configuration by specifying custom `yaml` file with `--config` option for `build` subcommand.
+
+##### Custom Configuration
+
+Available options:
+
+- `markers.slidegroup` - define slide group marker (default: `>>>slidegroup`)
+- `markers.slide` - define slide marker (default: `>>>slide`)
+- `stylesAppend` - list of styles to be appended to selected plugin
+- `scriptsAppend` - list of JS scripts to be appended to selected plugin
+- `stylesOverride` - list of styles to override the selected plugin
+- `scriptsOverride` - list of JS scripts to override the selected plugin
+
+NOTE: if both `...Append` and `...Override` options are specified, then `...Append` option takes place.
 
 ## Example
 
