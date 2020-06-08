@@ -104,6 +104,17 @@ $ ./fantik build slides.tmd
 # Open slides.html in your favorite browser
 ```
 
+## Building Binaries
+
+You can build binary for Linux/Windows and use **Fantik** without **Node.js** installed.
+
+```
+# building binaries
+npm install                 # install dependencies
+npm run build-binaries
+ls -lh bin/                 # list built binaries
+```
+
 ## Motivation
 
 Got tired of making presentation lectures in plain HTML (despite using [reveal.js](https://github.com/hakimel/reveal.js) and its markdown support) copying layout structure over and over again. Hopefully it helps making presentation faster, lighter and transferring styling from lecture to lecture easier.

@@ -8,7 +8,7 @@
     "test:coverage": "jest --collect-coverage --verbose",
     "pretest": "eslint --ignore-path .gitignore lib/** index.js",
     "preinstall": "npx npm-force-resolutions",
-    "build-binaries": "pkg -t node14-linux-x64,node14-win-x64 --out-dir bin package.json"
+    "build-binaries": "pkg -t node14-linux-x64,node14-win-x64 --out-dir bin package.json; mv bin/fantik-linux bin/fantik; mv bin/fantik-win.exe bin/fantik.exe"
   },
   "author": {
     "name": "Andy Lawrence"
