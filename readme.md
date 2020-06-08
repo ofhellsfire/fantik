@@ -86,7 +86,7 @@ stylesAppend:
       section, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
         font-family: 'Oswald', sans-serif !important;
       }
-    </style>'
+    </style>
 
 scriptsAppend:
   - '<script src="https://host/custom.js"></script>'
