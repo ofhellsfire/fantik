@@ -1,4 +1,4 @@
-#!/usr/bin/env node // eslint-disable-line node/shebang
+#!/usr/bin/env node
 
 'use strict'
 
