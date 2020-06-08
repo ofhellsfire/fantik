@@ -76,6 +76,31 @@ Available options:
 
 NOTE: if both `...Append` and `...Override` options are specified, then `...Append` option takes place.
 
+##### Custom Configuration Example
+
+```
+stylesAppend:
+  - '<link href="https://host/custom.css" rel="stylesheet">'
+  - |
+    <style>
+      section, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+        font-family: 'Oswald', sans-serif !important;
+      }
+    </style>'
+
+scriptsAppend:
+  - '<script src="https://host/custom.js"></script>'
+  - |
+    <script>
+      const msg = 'Hello';
+      console.log(msg);
+    </script>
+
+markers:
+  slidegroup: '***slidegroup'
+  slide: '***slide'
+```
+
 ## Example
 
 ```
