@@ -1,23 +1,5 @@
 'use strict'
 
-/*
-Test Cases:
-1. default invocation +
-2. wrong plugin +
-  - missing plugin +
-3. custom config (many cases per config section)
-  - invalid custom config +
-  - ...
-4. wrong custom config +
-5. no access input +
-6. no access out +
-7. ??? how to test watch
-8. list subcommand
-9. positive invocation
-  - custom config +
-  
-*/
-
 const child_process = require('child_process')
 const fs = require('fs')
 const os = require('os')
